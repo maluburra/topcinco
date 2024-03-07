@@ -1,5 +1,4 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -23,8 +22,13 @@ button {
     color: rgb(53, 48, 48);
 }
 
+h1{
+    color: rgb(163, 107, 151);
+}
+
 p{
     font-size:larger;
+    color: rgb(85, 68, 85);
 }
 
 .card1 {
@@ -37,12 +41,8 @@ p{
     line-height: 150px;
 }
 
-.white-text {
-    color: white;
-}
-
 .text-primary {
-    color: black !important;
+    color: rgb(53, 51, 51) !important;
 }
 
 .small-card {

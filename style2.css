@@ -1,9 +1,7 @@
 body {
-    font-family:'Times New Roman', Times, serif;
     text-align: center;
     display: flex;
     justify-content: space-between;
-
 }
 
 #content {
@@ -23,8 +21,13 @@ button {
     color: rgb(53, 48, 48);
 }
 
+h1{
+    color: rgb(163, 107, 151);
+}
+
 p{
     font-size:larger;
+    color: rgb(85, 68, 85);
 }
 
 .card1 {
@@ -35,6 +38,7 @@ p{
     margin: 10px;
     text-align: center;
     line-height: 150px;
+    border-radius: 50px;
 }
 
 .text-primary {
@@ -44,5 +48,3 @@ p{
 .small-card {
     width: 200px;
 }
-
-
