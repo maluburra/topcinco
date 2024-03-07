@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Top 5 Filmes</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Top 5 séries</h1>
+    <div class="card-group">
+      <div class="card">
+        <img src="saul.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Better Call Saul.</h5>
+          <p class="card-text">Jimmy McGill, também conhecido como Saul Goodman, tenta ser um homem honesto e
+            construir uma carreira de respeito. Mas há um lado seu que só quer aplicar golpes e se tornar um advogado
+            picareta.</p>
+          <p class="card-text"><small class="text-body-secondary">Primeiro episódio: 8 de fevereiro de 2015.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="breakingbad.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Breaking Bad.</h5>
+          <p class="card-text">O professor de química Walter White não acredita que sua vida possa piorar ainda mais.
+            Quando descobre que tem câncer terminal, Walter decide arriscar tudo para ganhar dinheiro enquanto pode,
+            transformando sua van em um laboratório de metanfetamina.</p>
+          <p class="card-text"><small class="text-body-secondary">Primeiro episódio: 20 de janeiro de 2008.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="theoffice.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Office.</h5>
+          <p class="card-text">Esta adaptação americana se passa em uma empresa de papel em Scranton, Pensilvânia e tem
+            um estilo de documentário semelhante ao original britânico estrelado por Ricky Gervais. Mostra a equipe da
+            Dunder-Mifflin, que inclui personagens baseados no original britânico (e, provavelmente, em pessoas com quem
+            você trabalha em seu escritório).</p>
+          <p class="card-text"><small class="text-body-secondary">Primeiro episódio: 24 de março de 2005.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="sobrenatural.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sobrenatural.</h5>
+          <p class="card-text">Os irmãos Sam e Dean Winchester encaram cenários sinistros caçando monstros. Velhos truques, armas e esconderijos não funcionam mais e seus amigos os traem, forçando os irmãos a contar um com o outro enquanto enfrentam novos inimigos.</p>
+          <p class="card-text"><small class="text-body-secondary">Primeiro episódio: 13 de setembro de 2005.</small></p>
+        </div>
+      </div>
+    </div>
+    <div id="cardContainer" class="card-group">
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text text-primary" id="paragraph">Clique nos botões abaixo para mudar o estilo da página.</p>
+        <button onclick="changeBackgroundColor('lightblue')" class="btn btn-primary">Fundo Azul</button>
+        <button onclick="changeBackgroundColor('lightgreen')" class="btn btn-primary">Fundo Verde</button>
+        <button onclick="changeBackgroundColor('black')" class="btn btn-primary">Modo Escuro</button>
+        <button onclick="resetStyles()" class="btn btn-primary">Modo claro</button>
+        <button onclick="changeParagraphText('Este é um novo texto.')" class="btn btn-primary">Mudar Texto</button>
+        <button onclick="changeBackgroundImage()" class="btn btn-primary">Fundo Personalizado</button>
+        <button onclick="window.location.href='series.html'" class="btn btn-primary">Ir para a página de
+          filmes</button>
+        <button onclick="addCard()" class="btn btn-primary">Clique para série surpresa.</button>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

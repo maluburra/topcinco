@@ -1,0 +1,48 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#content {
+    margin-top: 50px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 150px; /* Centraliza verticalmente o texto */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(53, 48, 48);
+}
+
+p{
+    font-size:larger;
+}
+
+.card1 {
+    width: 200px;
+    height: 150px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.text-primary {
+    color: black !important;
+}
+
+.small-card {
+    width: 200px;
+}
+
+
